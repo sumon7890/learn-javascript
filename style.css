@@ -1,0 +1,19 @@
+.new {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+input[type="text"] {
+    text-align: center;
+}
+
+.btn.btn-primary {
+    width: 121px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
