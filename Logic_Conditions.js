@@ -288,6 +288,16 @@ for (var i = 0; i <= 50; i++) {
 
 }
 
+function addNew(num) {
+    for (var i = 0; i < num.length; i++) {
+        return i
+
+    }
+}
+console.log(addNew);
+
+
+
 // While Loop//
 
 var i = 0;

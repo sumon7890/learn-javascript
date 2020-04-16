@@ -1,4 +1,4 @@
-function teet(n) {
+function teed(n) {
     function a() {
         return n % 5 == 0
     }
@@ -14,4 +14,4 @@ function teet(n) {
 
     }
 }
-teet(15)
+teed(15)

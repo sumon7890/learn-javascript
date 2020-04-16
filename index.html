@@ -16,17 +16,136 @@
 <body>
 
     <div class="d-flex justify-content-center">
-        <form class="center">
+        <div class="center">
             <div class="row col-md-2">
-                <input type="text" name="num1" class="form-control" autocomplete="off">
-                <input type="text" name="num2" class="form-control" autocomplete="off">
-                <input type="text" name="num3" class="form-control" autocomplete="off">
+                <input type="number" id="num1" class="form-control">
+                <input type="number" id="num2" class="form-control">
+                <input type="number" id="num3" class="form-control">
                 <button class="btn btn-primary" onclick="sumOne()">Total</button>
-                <input type="text" name="resp" id="seller" placeholder="Total Qty" class="form-control" autocomplete="off">
+                <input type="text" id="seller" class="form-control">
             </div>
-        </form>
+        </div>
 
     </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <input type="number" class="form-control" id="input1" placeholder="Width">
+            </div>
+            <div class="form-group col-md-3">
+                <input type="number" class="form-control" id="input2" placeholder="height">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-success" type="button" onclick="addFunction()" id="total">Total</button>
+            </div>
+            <div class="form-group col-md-2">
+                <input type="number" class="form-control" id="inputZip">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <h1>Bazzer List</h1>
+                <input type="text" class="form-control" id="item1">
+            </div>
+            <div class="form-group col-md-2">
+                <h1>Price</h1>
+                <input type="number" class="form-control" id="price1">
+            </div>
+            <div class="form-group col-md-2">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="item3">
+            </div>
+
+            <div class="form-group col-md-2">
+                <input type="number" class="form-control" id="price2">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="item5">
+            </div>
+
+            <div class="form-group col-md-2">
+                <input type="number" class="form-control" id="price3">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="item7">
+            </div>
+
+            <div class="form-group col-md-2">
+                <input type="number" class="form-control" id="price4">
+                <button class="btn btn-primary" type="submit" onclick="totalSum()">Total</button>
+                <input type="number" class="form-control" id="sum">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="container">
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <h1>Bazzer List</h1>
+                <input type="text" class="form-control" id="item12">
+            </div>
+
+            <div class="form-group col-md-2">
+                <h1>Price</h1>
+                <input type="text" class="form-control" id="item14">
+            </div>
+            <div class="form-group col-md-2">
+                <h3>Added</h3>
+                <button class="btn btn-primary" type="submit">add</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -34,16 +153,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-    <script>
-        function sumOne() {
-            var num1, num2, num3, res;
-            num1 = (document.center.num1.value)
-            num2 = (document.center.num2.value)
-            num3 = (document.center.num3.value)
-            res = num1 + num2 + num3;
-            document.center.resp.value = res;
-        }
-    </script>
+    <script src="app.js"></script>
 </body>
 
 </html>

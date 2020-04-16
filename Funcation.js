@@ -107,7 +107,7 @@ someOne('hello')
 
 /// scope
 
-function teet(n) {
+function teed(n) {
     function a() {
         return n % 5 == 0
     }
@@ -123,7 +123,90 @@ function teet(n) {
 
     }
 }
-teet(15)
+teed(15)
 
 
-//child access alowes present accebale ,,,but present not accessable chind
+/*child access alowes present accessible ,,,but present not accessible child*/
+
+
+function sqr(n) {
+    return n * n
+}
+
+console.log(sqr(2));
+console.log(sqr(14));
+console.log(sqr(2));
+
+var b = 10
+
+function a() {
+    var x = 20
+
+    return function() {
+        console.log(x);
+
+    }
+}
+
+var abc = a()
+console.dir(abc);
+
+arr2 = [2, 2, 1]
+console.log(arr2[2])
+
+
+
+
+// aita use korbo
+function total(weight, height) {
+    return (weight + height) * 2
+}
+
+console.log(total(2, 2));
+total(2, 4)
+
+var number = ('3,12,783,2,916,46,5,7,189,29,67,892,6,7,8,190,5,6,289,34,177,182,67,2')
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
+
+function checkEquality(a, b) {
+    if (a == b) {
+        return true
+
+    } else {
+        return false
+    }
+}
+
+function checkEquality(a, b) {
+    if (a === b) {
+        return true
+
+    } else {
+        return false
+    }
+}
+parseInt
+
+function addition(num) {
+    for (var i = 0; i < num.length; i++) {
+        console.log(i);
+
+    }
+}
+console.log(addition);
+
+var str1 = ("AB", "CD")
+
+var str2 = ("ABC", "DE")
+
+return (JSON.stringify(str1) === JSON.stringify(str2));
+
+
+var arr = [1, 2, 3, 4, 5, 6]
+
+forEach(arr, function(value, index, arr) {
+    arr[index] = value + 10
+})
+
+console.log(arr);
