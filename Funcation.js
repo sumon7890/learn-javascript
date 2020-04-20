@@ -62,7 +62,6 @@ test(10, 22, 45)
 //     }
 //  }
 
-/////////////////////////////////
 function addAll() {
     var sum = 0;
     for (var i = 0; i < arguments.length; i++) {
@@ -210,3 +209,14 @@ forEach(arr, function(value, index, arr) {
 })
 
 console.log(arr);
+
+var num = 0;
+
+function isEvenOrOdd(num) {
+
+    if (num % 2 == 0) {
+        return true
+    } else {
+        return false
+    }
+}

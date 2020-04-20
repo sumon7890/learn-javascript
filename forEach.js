@@ -1,22 +1,47 @@
-var arr = [1, 2, 3, 4, 5, 6]
-sum = 0;
+const arr2 = require('arr2');
+// var sum = 0
+// var arr = [1, 2, 3, 4, 5, 6]
+// arr.forEach(testNew)
 
-forEach(arr, function(value, index, arr) {
-    arr[index] = value + 5;
-    sum += value
-})
+// function testNew(value, index, arr) {
+//     sum -= value
+// }
+// console.log(sum);
 
-console.log(sum);
+// var numbers = [65, 44, 12, 4];
+// numbers.forEach(myFunction)
 
-console.log(arr);
+// function myFunction(value, index, arr) {
+//     arr[index] = value * 10;
+// }
+// console.log(numbers);
 
-sum = 0
-arr.forEach(arr, function(value, i, arr) {
-    sum += value
-})
 
-console.log(arr);
 
-array.forEach(element => {
+// var arr = [1, 4, 3, 5]
 
-});
+// function myMap(arr) {
+//     for (var i = 0; i < arr.length; i++) {
+//         var newArr = []
+//         var temp = arr[i] * arr[i]
+//         newArr.push(temp)
+//     }
+//     return newArr;
+// }
+
+// var result = myMap(arr)
+// console.log(result);
+
+var arr = [1, 7, 3]
+
+function myMap(arr) {
+    var newArr = []
+    for (var i = 0; i < arr.length; i++) {
+        var temp = arr[i] * arr[i]
+        newArr.push(temp)
+    }
+    return newArr
+}
+
+var result = myMap(arr)
+console.log(result);

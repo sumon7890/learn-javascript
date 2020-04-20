@@ -254,7 +254,7 @@ if (a > b || c > d) {
 var n = 2
 var str = ''
 
-if (n % 2 == 0) {
+if (n % 2 == 1) {
     str = 'Even'
 } else {
     str = 'Odd'
